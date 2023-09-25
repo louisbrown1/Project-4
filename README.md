@@ -14,8 +14,10 @@ see requirements.txt
 
 ![alt text](https://github.com/louisbrown1/Project-4/blob/master/Screenshot%202023-09-25%205.31.14%20PM.png?raw=true)
 
+
+
 ##  app folder structure
-      |-- app
+app folder
             |-- templates
                     |-- start.html
                     |-- results.html
