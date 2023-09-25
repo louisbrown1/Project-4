@@ -12,4 +12,4 @@ A flask webapp has been created that detects dogs or humans.
 ## libraries used in webapp
 see requirements.txt
 
-https://github.com/louisbrown1/Project-4/blob/master/Screenshot%202023-09-25%205.31.14%20PM.png
+![alt text](https://github.com/louisbrown1/Project-4/blob/master/Screenshot%202023-09-25%205.31.14%20PM.png?raw=true)
