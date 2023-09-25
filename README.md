@@ -17,7 +17,6 @@ see requirements.txt
 
 
 ##  app folder structure
-app folder
             |-- templates
                     |-- start.html
                     |-- results.html
