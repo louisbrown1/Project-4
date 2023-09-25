@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dog or Human Identifier</title>
+</head>
+<body>
+    <h1>Upload an image to identify if it's a dog or human:</h1>
+    <form action="/predict" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Predict">
+    </form>
+    <div id="result"></div>
+    <script>
+        document.querySelector('form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const response = await fetch('/predict', {
+                method: 'POST',
+                body: formData,
+            });
+            const data = await response.json();
+            console.log('Before updating result element');
+            document.querySelector('#result').textContent = data.result;
+            console.log(data.result);
+        });
+    </script>
+</body>
+</html>
