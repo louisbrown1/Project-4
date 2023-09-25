@@ -14,6 +14,14 @@ see requirements.txt
 
 ![alt text](https://github.com/louisbrown1/Project-4/blob/master/Screenshot%202023-09-25%205.31.14%20PM.png?raw=true)
 
+##  app folder structure
+      |-- app
+            |-- templates
+                    |-- start.html
+                    |-- results.html
+            |-- run.py
+            |-- weights.best.VGG19.hdf5
+            |-- extract_bottleneck_features.py
 
 ## Instructions:
 Run your web app: python run.py
