@@ -8,3 +8,6 @@ Given an image of a dog, the algorithm will identify an estimate of the canineâ€
 Open the `dog_app.ipynb` on a GPU enabled Python notebook environment. The notebook consists of further technical details. Run the notebook to classify your own dog images.
 
 A flask webapp has been created that detects dogs or humans.
+
+## libraries used in webapp
+see requirements.txt
